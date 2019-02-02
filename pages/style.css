@@ -1,0 +1,165 @@
+
+.masonry { /* Masonry container */
+    column-count: 2;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+    column-gap: 4em;
+    
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #e7e4d3;  /* gainsboro */
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+    border-style: ridge;
+    border-color: #052e5c;
+    border-width: 5px;
+}
+
+/*img {
+	width: 100%;
+
+}                                                                         */
+
+.upside-down {
+	transform: rotate(180deg);
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: "Bradley Hand", cursive;
+	margin-top: 5px;
+}
+
+body {
+	background-color: #bbd9ee;  /* powder blue */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #c4fb79;
+  color: black;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 14px;
+  border-top: 2px solid black;
+
+}
+
+p a { 
+	color: black;
+}
+
+p {
+	color: black;
+	text-align: center;
+	font-family: "Georgia", serif;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.intro-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+	}
+
+.armor-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-style: ridge;
+    border-color: #052e5c;
+    border-width: 5px;
+}
+
+
+
+
+
+
+.rating {
+	text-align: center;
+	font-style: oblique;
+	font-weight: bold;
+}
+.review {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 45%;
+	text-align: center;
+	background-color: #02b25f;
+	border-style: ridge;
+	border-color:  #052e5c; 
+	border-radius: 100px;
+	font-family: "Georgia", serif;	
+}
+
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
